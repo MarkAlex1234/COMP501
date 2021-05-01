@@ -1,3 +1,3 @@
-# CTiS-Test
- Test Site
- Site set up to test out options and editing and Github features
+# Group 1409
+ COMP501 Assignment 3
+ Site to display research regarding the relevance of AI, how it can be used, and the ethics involved. 
