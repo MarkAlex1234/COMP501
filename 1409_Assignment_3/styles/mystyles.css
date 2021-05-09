@@ -4,9 +4,18 @@ body {
   padding-left: 11em;
   font-family: Source Sans Pro, sans-serif, Georgia, "Times New Roman", Times, serif;
   color: black;
-  background: ##95c8d0;  /* fallback for old browsers */
+  background: #95c8d0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #95c8d0, #C4E0E5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #95c8d0, #C4E0E5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.reference_font{
+	font-family: 'Times New Roman', Times, serif;
+}
+h2.center{
+	width: 100%;
+	text-align: center;
+	
 }
 
 h1 {
