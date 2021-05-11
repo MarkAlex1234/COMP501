@@ -16,7 +16,7 @@ h2.center{
 	width: 100%;
 	text-align: center;
 }
-Table_size{
+.Table_size{
 	width: 100px;
 	height: 100px;
 }
@@ -32,10 +32,41 @@ Table_size{
 		background: #ffff;
 		padding: 20px; 
 		width: 100px;
-		height: 200px;  
+		height: 400px;  
 	  
 
 }
+
+#team_table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 5mm;
+  }
+  
+  #team_table td, #team_table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #team_table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #team_table tr:hover {background-color: #ddd;}
+  
+  #team_table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+  }
+
+
+
+
+
+
+
 
 h1 {
   font-family: Source Sans Pro, sans-serif, Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; 
