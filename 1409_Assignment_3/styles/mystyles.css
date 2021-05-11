@@ -15,7 +15,26 @@ body {
 h2.center{
 	width: 100%;
 	text-align: center;
-	
+}
+Table_size{
+	width: 100px;
+	height: 100px;
+}
+.column-text{
+	text-align: center;
+}
+.column-underline{
+	text-decoration: underline;
+}
+.column-background{
+
+		border-radius: 25px;
+		background: #ffff;
+		padding: 20px; 
+		width: 100px;
+		height: 200px;  
+	  
+
 }
 
 h1 {
