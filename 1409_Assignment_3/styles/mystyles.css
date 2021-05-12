@@ -1,12 +1,15 @@
 /* Find out why there's 2 style sheets*/
 
-body {
+html {
   padding-left: 11em;
   font-family: Source Sans Pro, sans-serif, Georgia, "Times New Roman", Times, serif;
   color: black;
-  background: #95c8d0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #95c8d0, #C4E0E5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #95c8d0, #C4E0E5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body
+{
+	background: linear-gradient(to left, #0cebeb, #20e3b2, #29ffc6); 
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .reference_font{
@@ -22,18 +25,32 @@ h2.center{
 }
 .column-text{
 	text-align: center;
+	font-family: Source Sans Pro, sans-serif, Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; 
+	font-size: 5mm;
 }
 .column-underline{
 	text-decoration: underline;
+	font-size: 50px;
 }
 .column-background{
 
 		border-radius: 25px;
 		background: #ffff;
 		padding: 20px; 
-		width: 100px;
-		height: 400px;  
+		width: 20px;
+		height: 600px;  
 	  
+
+}
+.column-background2{
+
+	border-bottom-left-radius: 0%;
+
+	background: blue;
+	padding: 20px; 
+	width: 20px;
+	height: 300px;  
+  
 
 }
 
@@ -61,6 +78,14 @@ h2.center{
 	color: white;
   }
 
+.image_temp{
+	height: 350px;
+	width: 20px;
+	background-color: #0000;
+	border-radius: 25px;
+	display: inline-block;
+
+}
 
 
 
@@ -70,6 +95,7 @@ h2.center{
 
 h1 {
   font-family: Source Sans Pro, sans-serif, Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; 
+  text-align: center;
 }
 
 ul.navbar {
