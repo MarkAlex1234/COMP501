@@ -6,37 +6,42 @@
   <link rel="stylesheet" href="../styles/minimal-table.css">
 <link rel="stylesheet" href="../styles/mystyles.css">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></head>
-
-<body>
-<!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="../index.html">Home</a>
-  <li><a href="process.html">Process Support</a>
-</ul>
-
-<h1>Peer Evaluation Form for Team Work [Private Page]</h1><br>
-<p>Team name ____________________________________________________</p>
-
-<h4>Due Date:  04/06/2021  midnight </h4><p><em>(Student to email Team Name and link to private page to your TA)</em></p> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
 
 
-<p>Write the name of each of your team members in a separate column. For each person,<br>
+<div id="navigation"></div>
+<script>
+    $(function(){
+      $("#navigation").load("../Misc/header_IP.html");
+    });
+    </script>
+<body class="col-lg-12">
+
+
+<h1 class="h1_title" style="text-align: center;">Peer Evaluation Form for Team Work [Private Page]</h1><br>
+<p class="P1">Team name 1409 </p>
+
+<h4>Due Date:  04/06/2021  midnight </h4>
+<p><em>(Student to email Team Name and link to private page to your TA)</em></p> 
+
+
+<p class="P1">Write the name of each of your team members in a separate column. For each person,<br>
  indicate the extent to which you agree with the statement on the left, using a scale <br>
- of 1-4 
- <ol start =01>
- <li><em>strongly disagree
- <li>disagree
- <li>agree
- <li>strongly agree</em>
- </ol>
+ of 1-4 </br>
  
-<p> Total the numbers in each column.
+<em>strongly disagree</br>
+ disagree</br>
+agree</br>
+ strongly agree</em></br>
+
+ 
+<p class="P1"> Total the numbers in each column.
 
 
 		
 <table id="team_table">
-    <p>
+    <p class="P1">
 	<body ><th>Evaluation Criteria</th>
     
         
@@ -115,9 +120,9 @@
    </tr>
 </table>
 
-<p><h4>Student name: ......................................., id:...................., Signature: ...............................</p></h4>
+<p class="P1">Student name: ......................................., id:...................., Signature: ...............................</p>
 <hr/>
-<p><h6><em>Note: the simplest option will be to fill in the sheet, copy and email it to your TA when completed.</p></h6></em> 
- <p><h6><em>As this is a static site without security features, it is not automated at this stage.[But usefully shows the limits of technology too]</p></h6></em>
+<p class="P1"><em>Note: the simplest option will be to fill in the sheet, copy and email it to your TA when completed.</em></br>
+    <em>As this is a static site without security features, it is not automated at this stage.[But usefully shows the limits of technology too]</em></p>
 </body>
 </html>

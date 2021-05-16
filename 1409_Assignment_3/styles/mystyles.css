@@ -111,12 +111,22 @@ h2.center{
 
 }
 
+.image_width{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+ 	width: 50%;
+}
 
 
-
-h1 {
+.h1_title { 
+margin-left: auto;
+  margin-right: auto;
   font-family: Source Sans Pro, sans-serif, Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; 
   text-align: center;
+  color: white;
+  font-size: 50px;
+  text-align: left;
 }
 
 ul.navbar {
